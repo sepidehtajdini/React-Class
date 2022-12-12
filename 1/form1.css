@@ -1,0 +1,36 @@
+form {
+    width: 600px;
+    height: 350px;
+    background-color: rgb(204, 200, 245);
+    padding: 15px;
+    border: 1px solid rgb(40, 41, 107);
+}
+
+div {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.identification {
+    display: block;
+    background-clip: Padding-box;
+}
+
+input {
+    border-radius: 5px;
+    border: 2px solid rgb(25, 110, 167);
+}
+
+.submit {
+    font-size: 18px;
+    box-shadow: 2px 2px rgb(28, 29, 107);
+    font-family: Georgia, 'Times New Roman', serif;
+    border: 2px solid rgb(28, 29, 107);
+}
+
+.submit,
+.identification {
+    color: rgb(130, 177, 189);
+    background-color: rgb(40, 41, 107);
+    border-radius: 5px;
+}
