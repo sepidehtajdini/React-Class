@@ -1,0 +1,130 @@
+html,
+button {
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+}
+
+body {
+    margin: 0;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar a {
+    color: black;
+    padding: 5px;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content a {
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+}
+
+.btn {
+    background-color: rgb(247, 243, 243);
+    align-items: flex-start;
+    border: 0;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 3px 2px black;
+    border-radius: 10px;
+    border: 2px solid rgb(83, 83, 83);
+    width: 7vw;
+    height: 30px;
+}
+
+.btn:hover {
+    background-color: rgb(47, 153, 153);
+    color: white;
+    border: 1px solid teal;
+    text-shadow: 1px -1px 2px rgb(1, 58, 58);
+}
+
+.headName {
+    width: 60vw
+}
+
+.headBtn {
+    justify-content: space-around;
+}
+
+.header {
+    width: 100vw;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: rgb(2, 66, 66);
+    color: white;
+    display: flex;
+    position: fixed;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.sidebar {
+    width: 20vw;
+}
+
+.sidebar a:hover {
+    color: red
+}
+
+.content {
+    width: 70vw;
+    align-items: flex-start;
+}
+
+.content,
+.sidebar {
+    height: 900px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 80px;
+    border-radius: 20px;
+    background: linear-gradient(100deg, rgb(2, 226, 226), rgb(1, 90, 90));
+}
+
+.sidebar,
+.content {
+    box-shadow: 5px 5px 5px black;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.facebook {
+    background: linear-gradient(100deg, rgb(49, 49, 116), rgb(21, 44, 148), white);
+    color: black;
+}
+
+.yahoo {
+    background: linear-gradient(100deg, rgb(70, 0, 70), purple, white);
+    color: black;
+}
+
+.google {
+    background: linear-gradient(100deg, red, yellow, green, rgb(4, 118, 211));
+    background-clip: text;
+    color: black
+}
+
+.amazon {
+    background: linear-gradient(100deg, rgb(230, 143, 30), white);
+    color: black;
+}
+
+.youtube {
+    background: linear-gradient(100deg, red, white);
+    background-clip: text;
+    color: black
+}
