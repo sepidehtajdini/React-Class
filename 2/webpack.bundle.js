@@ -1,0 +1,1 @@
+(()=>{"use strict";let t=prompt("Please enter the number");alert(`Square root:${function(t){return Math.sqrt(t)}(t)} and Power:${function(t){return t**2}(t)}`)})();
