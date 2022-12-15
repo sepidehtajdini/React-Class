@@ -14,7 +14,7 @@ function Home() {
     return (
         <form onSubmit={handleFormSubmit}>
             <h3> فرم جستجو</h3>
-            <input placeholder="متن را برای جستجو وارد کنید" onChange={handleInput} autoFocus />
+            <input placeholder="متن را برای جستجو وارد کنید" onChange={handleInput} autoFocus required />
             <Link className="link-btn" to={`/search/${query}`} >جستجو</Link>
         </form>
     )
