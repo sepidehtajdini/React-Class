@@ -37,7 +37,7 @@
     transform: rotate(180deg);
   }
 
-  100% {
+  75% {
     border-top-color: black;
     border-right-color: gray;
     border-bottom-color: transparent;
