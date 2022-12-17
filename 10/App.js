@@ -1,5 +1,5 @@
-import Home from "./10/Home/Home";
-import Search from "./10/Search/Search";
+import Home from "./Home/Home";
+import Search from "./Search/Search";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
   {
