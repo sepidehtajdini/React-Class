@@ -17,10 +17,10 @@ export default function Comments() {
                             email: comment.email,
                             body: comment.body
                         });
-                        setComments(foundComments);
-                        setIsLoading(false);
                     }
                 }
+                setComments(foundComments);
+                setIsLoading(false);
             })
     })
     if (isLoading) return <div className="loading">Loading...</div>
