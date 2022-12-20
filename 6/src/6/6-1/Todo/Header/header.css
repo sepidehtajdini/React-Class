@@ -1,1 +1,23 @@
+.todo__header {
+    border: 2px dashed black;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80vw;
+    border-radius: 10px;
+    display: flex;
+}
 
+.todo__header__btns {
+    justify-content: space-around;
+    flex-grow: 6;
+}
+
+.todo__header__btns,
+.todo__header__counters {
+    display: flex;
+    margin: auto;
+    flex-grow: 6;
+    padding: 5px;
+    justify-content: space-around;
+}
