@@ -1,0 +1,34 @@
+.spinner {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 100%;
+    border: 5px solid;
+    margin-top: 30vh;
+    animation-name: spinner;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes spinner {
+    0% {
+        border-color: red;
+        border-top-color: transparent;
+    }
+
+    25% {
+        border-color: yellow;
+        border-right-color: transparent;
+    }
+
+    50% {
+        border-color: yellowgreen;
+        border-bottom-color: transparent;
+    }
+
+   75% {
+        border-color: aqua;
+        border-left-color: transparent;
+    }
+}
