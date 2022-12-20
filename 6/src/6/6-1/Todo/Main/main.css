@@ -1,1 +1,26 @@
+.todo__main {
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    min-height: 100px;
+    margin: auto;
+    width: 80vw;
+    border-radius: 10px;
+    display: flex;
+}
 
+.todo__main__tasks {
+    border: 2px dashed black;
+    width: 75vw;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.todo__main Button {
+    margin-left: 60vw;
+}
+
+li {
+    margin-top: 7px;
+}
