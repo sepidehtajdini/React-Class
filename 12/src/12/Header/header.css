@@ -1,0 +1,12 @@
+.container {
+    width: 59vw;
+}
+
+.header {
+    width: 15vw;
+    height: 50px;
+    font-size: 45px;
+    margin-left: 20%;
+    /* margin: auto; */
+    text-align: center;
+}
