@@ -1,0 +1,45 @@
+button {
+    min-width: 35px;
+    min-height: 25px;
+    padding: 0.2rem 0.7rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border-radius: 0.4rem;
+    border: 1px solid;
+    line-height: 1.5;
+    color: white;
+    margin: 10px;
+}
+
+.black-btn {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.black-btn:hover {
+    background-color: #373b3e;
+    border-color: #373b3e;
+    box-shadow: 0 0 0 2px #373b3e;
+}
+
+.red-btn {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.red-btn:hover {
+    background-color: #a82734;
+    border-color: #a82734;
+    box-shadow: 0 0 0 2px #a82734;
+}
+
+.green-btn {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.green-btn:hover {
+    background-color: #136941;
+    border-color: #136941;
+    box-shadow: 0 0 0 2px #136941;
+}
